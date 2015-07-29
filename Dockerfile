@@ -1,7 +1,7 @@
 FROM mdillon/postgis:9.4
 
 LABEL de.fu-berlin.version="0.0.1"
-LABEL de.fu-berlin.usage="docker run --rm -e POSTGRES_USER=ems -e POSTGRES_PASSWORD=ems -p 5432:5432 klussmann/ems:postgis_with_tables"
+LABEL de.fu-berlin.usage="docker run --rm -e POSTGRES_USER=ems -e POSTGRES_PASSWORD=ems -p 5432:5432 kaltsimon/ems-database:latest"
 
 # Install Java
 # RUN echo "deb http://http.debian.net/debian jessie-backports main" >> /etc/apt/sources.list
