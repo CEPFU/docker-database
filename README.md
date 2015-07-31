@@ -12,7 +12,7 @@ mvn package
 ```
 and then run it using
 ```sh
-java -jar target/importer_database-*.jar [--help]
+java -jar target/importer-database-*.jar [--help]
 ```
 
 ## Building
